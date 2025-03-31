@@ -1,2 +1,227 @@
-"D:\Html\MyBlog.html"
-"D:\Html\Image"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Future of Artificial Intelligence</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.7;
+            color: #2d3436;
+            background: #f5f6fa;
+        }
+
+        .nav {
+            background: #2c3e50;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav h1 {
+            color: white;
+            text-align: center;
+            font-size: 1.8em;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .blog-header {
+            text-align: center;
+            margin: 50px 0;
+            padding: 30px 0;
+        }
+
+        .blog-title {
+            font-size: 2.8em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .blog-meta {
+            color: #7f8c8d;
+            font-size: 0.95em;
+            margin-bottom: 30px;
+        }
+
+        .blog-content {
+            background: white;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+        }
+
+        .image-container {
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .blog-image {
+            width: 85%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 25px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .section {
+            margin: 50px 0;
+            padding: 30px;
+            border-left: 4px solid #3498db;
+        }
+
+        h2 {
+            color: #2980b9;
+            margin-bottom: 25px;
+            font-size: 1.8em;
+        }
+
+        p {
+            margin-bottom: 25px;
+            font-size: 1.1em;
+            color: #2d3436;
+            line-height: 1.8;
+        }
+
+        .author-section {
+            background: #ecf0f1;
+            padding: 40px;
+            border-radius: 10px;
+            margin: 60px 0;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #7f8c8d;
+            margin-top: 50px;
+        }
+
+        .credit {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.95em;
+            letter-spacing: 0.5px;
+            color: #34495e;
+            margin-top: 15px;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .blog-title {
+                font-size: 2em;
+            }
+            
+            .blog-image {
+                width: 100%;
+                height: 250px;
+            }
+            
+            .container {
+                padding: 20px 10px;
+            }
+            
+            .blog-content {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <h1>MY BLOG</h1>
+    </nav>
+
+    <div class="container">
+        <header class="blog-header">
+            <h1 class="blog-title">The Future of Artificial Intelligence</h1>
+            <div class="blog-meta">
+                Published on <time datetime="2023-09-10">September 10, 2023</time> | 8 min read
+            </div>
+        </header>
+
+        <main class="blog-content">
+            <!-- Page 1 Content -->
+            <div class="image-container">
+                <img src="Image/AI-tech.jpeg"
+                     alt="AI Technology" 
+                     class="blog-image">
+            </div>
+
+            <div class="section">
+                <h2>The Dawn of Intelligent Machines</h2>
+                <p>In the 21st century, artificial intelligence has transitioned from laboratory experiments to becoming an integral part of our daily lives. From voice-activated assistants to predictive algorithms shaping our digital experiences, AI's pervasive influence marks a new era in technological evolution...</p>
+                
+                <p>The convergence of big data, advanced computing power, and sophisticated algorithms has created the perfect storm for AI development. Modern systems can now:</p>
+                <ul>
+                    <li>Process natural language with human-like understanding</li>
+                    <li>Recognize patterns in complex datasets</li>
+                    <li>Make predictive analyses with increasing accuracy</li>
+                </ul>
+            </div>
+
+            <!-- Page 2 Content -->
+            <div class="image-container">
+                <img src="Image/AI-robotics.jpeg" 
+                     alt="AI Robotics" 
+                     class="blog-image">
+            </div>
+
+            <div class="section">
+                <h2>Ethical Considerations in AI Development</h2>
+                <p>As we delegate more decisions to intelligent systems, crucial questions emerge about accountability and ethics. Key challenges include:</p>
+                
+                <div style="background: #f8f9fa; padding: 25px; border-radius: 8px; margin: 25px 0;">
+                    <h3>Critical Issues</h3>
+                    <p>• Algorithmic bias in decision-making systems<br>
+                       • Data privacy concerns in machine learning<br>
+                       • Job displacement through automation<br>
+                       • Autonomous weapons development</p>
+                </div>
+            </div>
+
+            <!-- Page 3 Content -->
+            <div class="section">
+                <h2>The Road Ahead</h2>
+                <p>Leading researchers predict several key developments by 2030:</p>
+                
+                <div style="display: flex; gap: 20px; margin: 30px 0; flex-wrap: wrap;">
+                    <div style="flex: 1; min-width: 250px; padding: 20px; background: #f8f9fa; border-radius: 8px;">
+                        <h4>Healthcare Revolution</h4>
+                        <p>AI-powered diagnostic systems with 95%+ accuracy</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; padding: 20px; background: #f8f9fa; border-radius: 8px;">
+                        <h4>Climate Solutions</h4>
+                        <p>Optimized energy systems reducing carbon emissions</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="author-section">
+                <h3>About the Author</h3>
+                <p>Dr. Sarah Johnson is a leading AI ethicist with 15 years of experience in machine learning research. Currently heading AI Policy at MIT's Future Intelligence Lab.</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2023 AI Insights Blog | Follow us on [Social Links]</p>
+            <p class="credit">Made by Aditya nayan_22scse1010895</p>
+        </footer>
+    </div>
+</body>
+</html>
